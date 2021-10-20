@@ -5,3 +5,35 @@
 audio::-webkit-media-controls-panel {
     background: #ffffff;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+section {
+    width: 500px;
+    height: 600px;
+    /* border: 1px solid blue; */
+    margin: 0 auto;
+    box-shadow: 0 0 10px 5px rgb(196, 194, 194);
+}
+
+img {
+    width: 500px;
+    height: 300px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    color: lightgrey
+}
+
+.player {
+    margin: 0 auto;
+}
